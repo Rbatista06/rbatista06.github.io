@@ -2,113 +2,87 @@
 <html lang="pt-BR">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rafael Batista | Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Batista | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+    <header>
+        <h1>Rafael Batista Prescinato</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-<h1>Rafael Batista Prescinato</h1>
-<div class="projeto">
-<nav>
-<a href="#sobre">Sobre</a>
-<a href="#projetos">Projetos</a>
-<a href="#contato">Contato</a>
-</nav>
-</div>
-</header>
+    <section class="hero">
+        <h2>Desenvolvedor Web & IoT</h2>
+        <p>Criando soluções com sensores, ESP32 e aplicações web.</p>
+        <a href="#projetos" class="btn">Ver projetos</a>
+    </section>
 
-<section class="hero">
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>
+            Sou desenvolvedor interessado em IoT, automação e desenvolvimento web.
+            Atualmente desenvolvendo o projeto TAMPAI, uma solução inteligente para
+            descarte de medicamentos.
+        </p>
+    </section>
 
-<h2>Desenvolvedor Web & IoT</h2>
+    <section id="projetos">
+        <h2>Projetos Destaque</h2>
 
-<p>
-Criando soluções com sensores, ESP32 e aplicações web.
-</p>
-<div class="projeto">
-<a href="#projetos" class="btn">Ver projetos</a>
+        <div class="container-projetos">
+            <div class="projeto-card">
+                <h3>Projeto TAMPAI</h3>
+                <div class="projeto-info">
+                    <p>Lixeira inteligente para descarte de medicamentos utilizando sensores, automação e ESP32.</p>
+                    <ul>
+                        <li>ESP32 | Sensores ultrassônicos | Servo motor | IoT</li>
+                    </ul>
+                </div>
+                <div class="projeto-visual">
+                    <img src="assets/img/tampai1.jpeg" alt="TAMPAI principal" class="img-principal">
+                    <div class="galeria-mini">
+                        <img src="assets/img/tampai2.jpeg" alt="TAMPAI detalhe">
+                        </div>
+                </div>
+            </div>
 
-</section>
+            <div class="projeto-card">
+                <h3>FETEPS</h3>
+                <div class="projeto-info">
+                    <p>Apresentação do projeto na feira tecnológica, demonstrando a viabilidade e impacto social.</p>
+                </div>
+                <div class="projeto-visual">
+                    <img src="assets/img/feteps1.jpeg" alt="FETEPS 1" class="img-principal">
+                    <div class="galeria-mini">
+                        <img src="assets/img/feteps2.jpeg" alt="FETEPS 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="sobre">
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contato-links">
+            <a href="mailto:rbatistap.0610@gmail.com">Email</a>
+            <a href="https://wa.me/5518996961684?text=Olá%20Rafael,%20vi%20seu%20portfólio!" target="_blank">WhatsApp</a>
+            <a href="https://github.com/Rbatista06" target="_blank">GitHub</a>
+        </div>
+    </section>
 
-<h2>Sobre mim</h2>
+    <footer>
+        <p>© 2026 Rafael Batista</p>
+    </footer>
 
-<p>
-Sou desenvolvedor interessado em IoT, automação e desenvolvimento web.
-Atualmente desenvolvendo o projeto TAMPAI, uma solução inteligente para
-descarte de medicamentos.
-</p>
-</div>
-</section>
-
-<section id="projetos">
-  <h2>Projetos Destaque</h2>
-
-  <div class="container-projetos">
-    
-    <div class="projeto-card">
-      <h3>Projeto TAMPAI</h3>
-      <div class="projeto-info">
-        <p>Lixeira inteligente para descarte de medicamentos utilizando sensores, automação e ESP32.</p>
-        <ul>
-          <li>ESP32 | Sensores ultrassônicos | Servo motor | IoT</li>
-        </ul>
-      </div>
-      <div class="projeto-imagens">
-        <img src="assets/img/tampai1.jpeg" alt="TAMPAI principal" class="img-grande">
-        <img src="assets/img/tampai2.jpeg" alt="TAMPAI detalhe" class="img-pequena">
-      </div>
-    </div>
-
-    <div class="projeto-card">
-      <h3>FETEPS</h3>
-      <div class="projeto-info">
-        <p>Apresentação do projeto na feira tecnológica, demonstrando a viabilidade e impacto social.</p>
-      </div>
-      <div class="projeto-imagens">
-        <img src="assets/img/feteps1.jpeg" alt="FETEPS 1" class="img-grande">
-        <img src="assets/img/feteps2.jpeg" alt="FETEPS 2" class="img-pequena">
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section id="contato">
-<div class="projeto">
-<h2>Contato</h2>
-
-<div class="contato-links">
-
-<a href="mailto:rbatistap.0610@gmail.com">Email</a>
-
-<a href="https://wa.me/5518996961684?text=Olá%20Rafael,%20vi%20seu%20portfólio!" target="_blank">
-WhatsApp
-</a>
-
-<a href="https://github.com/Rbatista06" target="_blank">
-GitHub
-</a>
-
-</div>
-</div>
-</section>
-
-<footer>
-
-<p>© 2026 Rafael Batista</p>
-
-</footer>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
