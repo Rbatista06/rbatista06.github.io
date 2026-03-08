@@ -60,11 +60,10 @@ padding:80px 60px;
 }
 
 .projeto{
-
-display:flex;
-gap:40px;
-align-items:center;
-
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+margin-top:20px;
 }
 
 .projeto-img{
