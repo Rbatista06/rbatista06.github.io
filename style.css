@@ -1,62 +1,48 @@
 body{
-
 font-family: Arial;
 margin:0;
 background:#0f172a;
 color:white;
-
 }
 
 header{
-
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 60px;
 background:#020617;
-
 }
 
 nav a{
-
 margin-left:20px;
 color:white;
 text-decoration:none;
-
 }
 
 .hero{
-
 height:80vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-
 }
 
 .hero h2{
-
-font-size:48px;
-
+font-size:clamp(32px,5vw,48px);
 }
 
 .btn{
-
 margin-top:20px;
 padding:12px 24px;
 background:#38bdf8;
 color:black;
 text-decoration:none;
 border-radius:8px;
-
 }
 
 section{
-
 padding:80px 60px;
-
 }
 
 .container-projeto{
@@ -84,9 +70,7 @@ border-radius:10px;
 }
 
 .projeto-texto ul{
-
 padding-left:20px;
-
 }
 
 .projeto-destaque{
@@ -116,38 +100,36 @@ transform:scale(1.08);
 }
 
 .imagem-principal{
-    display:flex;
-    justify-content:center;
+display:flex;
+justify-content:center;
 }
 
 .imagem-principal img{
-    width:100%;
-    max-width:350px;
-    border-radius:12px;
+width:100%;
+max-width:350px;
+border-radius:12px;
 }
 
 .descricao h3{
-    font-size:28px;
-    margin-bottom:10px;
+font-size:28px;
+margin-bottom:10px;
 }
 
 .descricao p{
-    margin-bottom:15px;
+margin-bottom:15px;
 }
 
 .descricao ul{
-    padding-left:20px;
+padding-left:20px;
 }
 
 .contato-links{
-
 display:flex;
 gap:20px;
 
 }
 
 .contato-links a{
-
 background:#1e293b;
 padding:12px 20px;
 border-radius:8px;
@@ -157,7 +139,6 @@ color:white;
 }
 
 footer{
-
 text-align:center;
 padding:30px;
 background:#020617;
